@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b698ecf1e7d8824493ba8f982b67ee2, type: 3}
+  m_Name: Feed
+  m_EditorClassIdentifier: 
+  triggerBehaviours:
+  - {fileID: 11400000, guid: e223af85d3f67da4da7f877997624422, type: 2}
+  - {fileID: 11400000, guid: 16f657bd6ec10294fb1a9dc3af6fdcde, type: 2}
+  - {fileID: 11400000, guid: 47364ef91e3c60140b4be6f11b6d23cf, type: 2}

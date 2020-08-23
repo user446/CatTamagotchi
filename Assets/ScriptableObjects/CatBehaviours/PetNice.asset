@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ea9e999ffcc1c45bb6e489394deabc, type: 3}
+  m_Name: PetNice
+  m_EditorClassIdentifier: 
+  description: Kot purrs and wiggle its tail
+  lifeTime: 2
+  audio: {fileID: 8300000, guid: fdd42bbb394ef874ebe341638d84f59d, type: 3}
+  playClip: {fileID: 7400000, guid: 43435423aa366ad49a2ed6cb66faf445, type: 2}
+  triggerMood: {fileID: 11400000, guid: 70164171ba6170d4e9f2728656cb98b9, type: 2}
+  intialMood: {fileID: 11400000, guid: 70164171ba6170d4e9f2728656cb98b9, type: 2}
+  triggerBehaviour: {fileID: 11400000, guid: 1e2e18570afe46f448019993e7d50fcf, type: 2}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b698ecf1e7d8824493ba8f982b67ee2, type: 3}
+  m_Name: Kick
+  m_EditorClassIdentifier: 
+  triggerBehaviours:
+  - {fileID: 11400000, guid: bd966886e65e64b4890f422b882b652f, type: 2}
+  - {fileID: 11400000, guid: 39da9bc82cd8a2b4e8a7289788dd71bc, type: 2}
+  - {fileID: 11400000, guid: 3897db9f69153bc4ba71ceb9ca622e11, type: 2}
