@@ -30,7 +30,8 @@ public class Cat : MonoBehaviour
         behaviour = action.GetBehaviourByMood(mood);
 
         behaviourText.text = behaviour.description;
-        animator.Play(clips.Find(clip => clip.Equals(behaviour.playClip)).name);
+        if(behaviour.playClip != null)
+            animator.Play(clips.Find(clip => clip.Equals(behaviour.playClip)).name);
         if(behaviour.audio != null)
             AudioSource.PlayClipAtPoint(behaviour.audio, Camera.main.transform.position, 0.5f);
         if(onBehaving == false)
